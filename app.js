@@ -120,3 +120,8 @@ console.log("Use the umbrella")
 }else{
   console.log("don't take the umbrella")
 }
+// Ternary operator
+
+let result = 9 < 15
+
+result ? console.log("Result is True") : console.log("Result is False")
