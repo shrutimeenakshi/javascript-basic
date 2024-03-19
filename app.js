@@ -104,3 +104,19 @@ console.log(3>=4)
 console.log(3>=3)
 console.log(3=='3')
 console.log(3==='3')
+//conditionals
+let weathercondition = "Sunny"
+let subcondition = "Too Hot"
+if(weathercondition ==="Cloudy"){
+  console.log("Take the umbrella")
+}else if (weathercondition === "Rainy"){
+console.log("Use the umbrella")
+}else if (weathercondition ==="Snny"){
+  if (subcondition ==="Too HOt"){
+    console.log("use the umbrella")
+  }else{
+    console.log("don't use the umbrella")
+  }
+}else{
+  console.log("don't take the umbrella")
+}
